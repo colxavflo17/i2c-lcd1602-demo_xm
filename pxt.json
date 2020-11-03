@@ -1,0 +1,23 @@
+{
+    "name": "I2C LCD1602 demo_XM",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "MakerBit-LCD1602": "github:1010technologies/pxt-makerbit-lcd1602#v1.6.4",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "custom.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
