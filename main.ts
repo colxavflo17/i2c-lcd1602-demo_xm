@@ -3,11 +3,7 @@ makerbit.clearLcd2004()
 makerbit.connectLcd(39)
 makerbit.setLcdBacklight(LcdBacklight.On)
 basic.forever(function () {
-    makerbit.showStringOnLcd2004("" + (sonar.ping(
-    DigitalPin.P2,
-    DigitalPin.P2,
-    PingUnit.Centimeters
-    )), makerbit.position2004(LcdPosition2004.Pos1), 20)
+    makerbit.showStringOnLcd2004("", makerbit.position2004(LcdPosition2004.Pos1), 20)
     makerbit.showStringOnLcd2004("CM", makerbit.position2004(LcdPosition2004.Pos4), 2)
     makerbit.showStringOnLcd2004("" + (input.temperature()), makerbit.position2004(LcdPosition2004.Pos9), 4)
     makerbit.showStringOnLcd2004("deg", makerbit.position2004(LcdPosition2004.Pos12), 3)
